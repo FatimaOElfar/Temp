@@ -22,7 +22,8 @@
 .container {
     padding: 15px 127px;
 }
-@media (min-width:768px) {
+
+/* @media (min-width:768px) {
     .container{
         width: 750px;
     }
@@ -32,21 +33,21 @@
     .container{
         width:970px;
     }
-}
-@media(min-width:1200px){
+} */
+/* @media(min-width:1200px){
     .container{
         width:1170px;
     }
-}
-@media(max-width:768px){
-    *h1{
+} */
+/* @media(max-width:768px){
+    h1{
         font-size: 60px;
     }
- *p{
+ p{
         margin:-15px;
         font-size: 22px;
     }
-}
+} */
 .navbar {
     display: flex;
     flex-direction: row;
@@ -194,7 +195,7 @@
     font-size: 16px;
     line-height: 1.8;
     color: #777;
-    ;
+    
 }
 
 i {
@@ -287,7 +288,7 @@ i {
 
 .servicesContent {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -401,6 +402,8 @@ p {
 .project {
     background-color: #f6f6f6;
     height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .head h1 {
@@ -423,48 +426,48 @@ p {
     margin-top: 55px;
     display: flex;
     flex-direction: row;
-    justify-content: first baseline;
+    justify-content:space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    /* display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    grid-gap:30px;
+    margin-bottom: 40px; */
+
 }
 
 .images img {
-    width: 300px;
-    height: 250px;
+     width:350px;
+    height: 250px; 
 }
+
 
 .imag1 {
+    margin-top: 20px;
     background-color: white;
-    margin: 0 30px;
-    width: 300px;
+    /* margin: 0 30px; */
+    width:350px;
+    max-width: 350px;
+    flex:1;
 
 }
+.imag1 .info1{
+    padding:20px;
+}
 
-.images h1 {
-    font-size: 22px;
-    margin-left: 17px;
+.images h3 {
+    
+margin:0;
 
 }
 
 .images p {
-    font-size: 18px;
+    
     line-height: 1.6;
-    margin-left: 17px;
+    margin-bottom:0;
+  
 }
 
-.imag2 {
-    background-color: white;
-    margin: 0 30px;
-    width: 300px;
 
-}
-
-.imag3 {
-    background-color: white;
-    margin: 0 30px;
-    width: 300px;
-    gap: 30px 30px;
-}
 
 /* end section four */
 /*  start section five */
@@ -555,6 +558,7 @@ hr {
     font-size: 113px;
     color: #ebeced;
     font-weight: bold;
+    /* margin-left: 198px; */
 }
 
 .head_contact p {
@@ -562,6 +566,7 @@ hr {
     margin-top: -128px;
     padding: 19px;
     font-size: 22px;
+    /* margin-left: 198px; */
 
 }
 .contact_text{
@@ -570,12 +575,19 @@ hr {
     padding-top: 64px;
     padding-bottom: 50px;
 }
+@media(max-width:800px){
+    .contact_text .textt,.link{
+        font-size:25px;
+    }
+}
+
 .textt{  
       font-size: 40px;
     font-weight: 800;
     letter-spacing: -2px;
     margin-bottom: 15px;
     color: #2c4755;
+    /* margin-left: 100px; */
 
 }
 .link{
@@ -585,6 +597,7 @@ hr {
     text-decoration: none;
     margin-top: 25px;
     font-weight: 800;
+    /* margin-left: 100px; */
 
 }
 .social{
@@ -596,6 +609,7 @@ hr {
     display: flex;
     justify-content: center;
     font-size: 19px;
+    /* margin-left: 100px; */
 
 }
 .sociall i{
