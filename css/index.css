@@ -609,12 +609,27 @@ margin:0;
     
 }
 
+@media(max-width:768px){
+    .Imag img {
+    margin-left: 62px;
+    }
+    
+}
 
 @media(max-width:375px)
 {
  .text1 ,.text2 {
         font-size: 15px;
         width: 175px;
+        text-align: center;
+    }
+    
+    
+}
+@media(max-width:768px)
+{
+ .text1 ,.text2 {
+    margin-right: 38px;
         text-align: center;
     }
     
@@ -631,6 +646,7 @@ margin:0;
     
     
 }
+
 
 .text1 {
     line-height: 2;
