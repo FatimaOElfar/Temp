@@ -616,6 +616,14 @@ margin:0;
     
 }
 
+@media(max-width:912px){
+    .Imag img {
+    margin-left: 62px;
+    }
+    
+}
+
+
 @media(max-width:375px)
 {
  .text1 ,.text2 {
@@ -632,9 +640,17 @@ margin:0;
     margin-right: 38px;
         text-align: center;
     }
+}
+@media(max-width:912px)
+{
+ .text1 ,.text2 {
+    margin-right: 38px;
+        text-align: center;
+    }
     
     
 }
+
 /* 414px */
 @media(max-width:414px)
 {
