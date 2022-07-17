@@ -8,8 +8,13 @@
     padding: 0;
 
 }
+@media(max-width:280px){
+    body{
+        width: 600px;
+    }
+}
 
-.body{
+body{
     font-family: 'Work Sans',sans-serif;
 }
 
@@ -275,29 +280,6 @@ i {
     font-size: 22px;
 
 }
-/* @media(max-width:522px)
-{
-    .header h1{
-        text-align: center;
-        font-size: 65px;
-        margin-top: 20px;
-    }
-
-}
-
-@media(max-width:522px)
-{
-    .header p{
-        text-align: center;
-        font-size: 14px;
-        margin-top: -128px;
-        padding: 19px;
-        margin-top: -77px;
-    
-
-    }
-
-} */
 
 
 /* 375 */
